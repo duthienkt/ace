@@ -165,7 +165,7 @@
 }
 
 .ace-vscode .ace_entity.ace_name.ace_function {
-    color: #50fa7b
+    color: rgb(220, 220, 170);
 }
 
 .ace-vscode .ace_entity.ace_name.ace_tag {
