@@ -63,7 +63,9 @@
 }
 
 .ace-vscode .ace_marker-layer .ace_active-line {
-    background: #44475a
+    background: transparent;
+    border: solid 1px rgb(40, 40, 40);
+
 }
 
 .ace-vscode .ace_gutter-active-line {
