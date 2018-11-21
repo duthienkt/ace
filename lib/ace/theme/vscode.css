@@ -26,7 +26,7 @@
 }
 
 .ace-vscode .ace_gutter {
-    background: #282a36;
+    background: rgb(35, 35, 35);
     color: rgb(144, 145, 148)
 }
 
