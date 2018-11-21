@@ -27,7 +27,7 @@
 
 .ace-vscode .ace_gutter {
     background: rgb(35, 35, 35);
-    color: rgb(144, 145, 148)
+    color: rgb(80, 80, 80);
 }
 
 .ace-vscode .ace_print-margin {
@@ -64,12 +64,12 @@
 
 .ace-vscode .ace_marker-layer .ace_active-line {
     background: transparent;
-    border: solid 1px rgb(40, 40, 40);
+    border: solid 1px rgb(31, 31, 31);
 
 }
 
 .ace-vscode .ace_gutter-active-line {
-    background-color: #44475a
+    color: rgb(212, 212, 212);
 }
 
 .ace-vscode .ace_marker-layer .ace_selected-word {
