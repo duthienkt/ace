@@ -32,7 +32,7 @@
 
 .ace-vscode .ace_print-margin {
     width: 1px;
-    background: #44475a
+    background: rgb(50, 50, 50);
 }
 
 .ace-vscode {
