@@ -128,12 +128,14 @@ styles.join("\n")
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIAqKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYMAPdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC");
 }
 
+/******************  SCROLL BAR ***********************************************/
 .ace_scrollbar {
     contain: strict;
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: 6;
+    visibility: hidden;
 }
 
 .ace_scrollbar-inner {
@@ -154,6 +156,63 @@ styles.join("\n")
     overflow-y: hidden;
     left: 0;
 }
+
+.ace_scrollbar-box {
+    contain: strict;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: solid 1px rgb(56, 56, 56);
+}
+
+.ace_scrollbar-box-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ace_scrollbar-button{
+    top: 0;
+    left:0;
+    position: absolute;
+    background-color: rgba(150, 150, 150, 0.7); 
+    opacity: 0.3;
+}
+
+.ace_editor:hover .ace_scrollbar-button{
+     opacity: 1;
+     
+}
+
+
+
+
+.ace_scrollbar-box-v{
+   top: 0;
+}
+
+
+.ace_scrollbar-box-v .ace_scrollbar-button{
+    left: 2px;
+    right: 2px;
+}
+
+.ace_scrollbar-box-h .ace_scrollbar-button{
+    top: 2px;
+    bottom: 2px;
+}
+
+
+.ace_scrollbar-box-h{
+   left: 0;
+}
+
+
+
+/******************************************************************************/
 
 .ace_print-margin {
     position: absolute;
