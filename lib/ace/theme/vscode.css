@@ -9,6 +9,8 @@
  */
  
  
+ 
+ 
  .ace-vscode .ace_search{
     background-color: rgb(37, 37, 38);
     color:rgb(196, 196, 196);
@@ -235,4 +237,13 @@ box-shadow: 2px 9px 14px -1px rgba(0,0,0,0.71);
 
 .ace-vscode .ace_indent-guide {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYHB3d/8PAAOIAdULw8qMAAAAAElFTkSuQmCC) right repeat-y
+}
+
+
+/* tooltip*/
+
+.ace_tooltip.ace-vscode{
+    background-color: rgb(37, 37, 37);
+    border-color: rgb(130, 130, 130);
+    padding:0.5em;
 }
