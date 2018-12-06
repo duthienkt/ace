@@ -165,7 +165,6 @@ styles.join("\n")
     z-index: 6;
     overflow-x: hidden;
     overflow-y: hidden;
-    border: solid 1px rgb(56, 56, 56);
 }
 
 .ace_scrollbar-box-container{
@@ -178,7 +177,7 @@ styles.join("\n")
     top: 0;
     left:0;
     position: absolute;
-    background-color: rgba(150, 150, 150, 0.7); 
+    background-color: rgba(150, 150, 150, 0.5); 
     opacity: 0.3;
 }
 
